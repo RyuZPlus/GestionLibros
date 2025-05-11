@@ -8,7 +8,7 @@ import modelo.Venta;
 
 public class Reportes {
 	public static void mostrar(List<Venta> ventas, Scanner sc) {
-		System.out.println("----- Menú de Reportes -----");
+		System.out.println("-----Menú de Reportes-----");
 		boolean volver = false;
 		while (!volver) {
 			System.out.println("1. Libro más vendido");
